@@ -1,0 +1,93 @@
+# Created at 2021-01-27T00:36:32.317
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-01-27T00:36:32.854
+Unexpected IOException with stream: 2021-01-27 00:36:32.845  INFO 14588 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+
+
+# Created at 2021-01-27T00:36:32.987
+Unexpected IOException with stream: 2021-01-27 00:36:32.986  INFO 14588 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 1 JPA repository interfaces.
+
+
+# Created at 2021-01-27T00:36:33.685
+Unexpected IOException with stream: Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+
+
+# Created at 2021-01-27T00:36:34.023
+Unexpected IOException with stream: 2021-01-27 00:36:34.022  INFO 14588 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2021-01-27T00:36:34.060
+Unexpected IOException with stream: 2021-01-27 00:36:34.060  INFO 14588 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2021-01-27T00:36:34.069
+Unexpected IOException with stream: 2021-01-27 00:36:34.068  WARN 14588 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+
+
+# Created at 2021-01-27T00:36:51.466
+Unexpected IOException with stream: 2021-01-27 00:36:51.465  INFO 14588 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2021-01-27T00:36:51.537
+Unexpected IOException with stream: 2021-01-27 00:36:51.537  INFO 14588 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2021-01-27T00:36:51.604
+Unexpected IOException with stream: 2021-01-27 00:36:51.603  WARN 14588 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2021-01-27T00:36:51.626
+Unexpected IOException with stream: 2021-01-27 00:36:51.625  INFO 14588 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+
+
+# Created at 2021-01-27T00:36:51.939
+Unexpected IOException with stream: 2021-01-27 00:36:51.938  INFO 14588 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+
+
+# Created at 2021-01-27T00:36:52.510
+Unexpected IOException with stream: 2021-01-27 00:36:52.509  INFO 14588 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+# Created at 2021-01-27T00:36:53.156
+Unexpected IOException with stream: 2021-01-27 00:36:53.155  INFO 14588 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e13f304, org.springframework.security.web.context.SecurityContextPersistenceFilter@1319bc2a, org.springframework.security.web.header.HeaderWriterFilter@a09303, org.springframework.security.web.authentication.logout.LogoutFilter@50eb4a2c, com.sistema.ventas.segurity.JwtFilter@117d32e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42f85fa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a7e365, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@787508ca, org.springframework.security.web.session.SessionManagementFilter@6a1ef65c, org.springframework.security.web.access.ExceptionTranslationFilter@2f10f633, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a917723]
+
+
+# Created at 2021-01-27T00:36:53.892
+Unexpected IOException with stream: 2021-01-27 00:36:53.891  INFO 14588 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+
+
+# Created at 2021-01-27T00:36:54.457
+Unexpected IOException with stream: 2021-01-27 00:36:54.456  INFO 14588 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2021-01-27T00:36:54.469
+Unexpected IOException with stream: 2021-01-27 00:36:54.468  INFO 14588 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-01-27T00:36:54.870
+Unexpected IOException with stream: 2021-01-27 00:36:54.869  INFO 14588 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+
+
+# Created at 2021-01-27T00:36:54.886
+Unexpected IOException with stream: 2021-01-27 00:36:54.886  INFO 14588 --- [           main] c.s.v.SistemaVentasApiApplicationTests   : Started SistemaVentasApiApplicationTests in 23.236 seconds (JVM running for 24.366)
+
+
+# Created at 2021-01-27T00:36:55.075
+Unexpected IOException: 5,1,com.sistema.ventas.SistemaVentasApiApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2021-01-27T00:36:55.166
+Unexpected IOException: 6,1,com.sistema.ventas.SistemaVentasApiApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2021-01-27T00:36:55.170
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.sistema.ventas.SistemaVentasApiApplicationTests,null,null,null
+
+
